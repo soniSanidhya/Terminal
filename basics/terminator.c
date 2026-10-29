@@ -487,6 +487,6 @@ int main()
     }
     XDestroyWindow(display, win);
     XCloseDisplay(display);
-
+    printf("done with it");
     return 0;
 }
